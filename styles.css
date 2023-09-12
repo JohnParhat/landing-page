@@ -1,0 +1,160 @@
+body,h1,h2,h3,p{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.header{
+    background-color: #1f2937;
+    padding:  0px 15% 8% 15%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.hero-text .left h2{
+    font-size: 48px;
+    color: #f9faf8;
+} 
+
+.hero-text .left p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 5px;
+}
+
+.hero-text .left button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+.hero-text img{
+    height: 250px;
+    width: 500px;
+    background-color: gray;
+}
+
+/*  Random info section */
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 20% 5% 20% ;
+}
+
+.random-info h3{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.random-info .items{
+    display: flex;
+    gap: 30px;
+}
+.random-info .item{
+    flex: 1;
+}
+
+.random-info .item img{
+    width: 100%;
+    height: 65%;
+    border-radius: 10px;
+}
+.random-info p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* styles for quotes section
+ */
+ .quotes{
+    background-color: #e5e7eb;
+    padding: 3% 20% 5% 20% ;
+ }
+ .quotes .quote{
+    font-size: 36px;
+    color: #1f2937;
+    text-decoration: italic;
+ }
+ .quotes .author{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: end;
+ } 
+
+ /* styles for sign up section */
+
+ .signup{
+    background-color: #3882f6;
+    display: flex;
+    margin: 5% 15%;
+    justify-content: space-around;
+    padding: 3% 0;
+    align-items: center;
+    border-radius: 10px;
+ }
+
+ .signup h3{
+    color: #e5e7eb;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+ }
+ .signup p{
+    color: #c8c9cc;
+ }
+ .signup button{
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    border: 1px solid #e5e7eb;
+    color: #e5e7eb;
+ }
+
+ /* styles for footer */
+
+ footer{
+    text-align: center;
+    padding: 3% 0;
+    background-color: #1f2937;
+    color: #c8c9cc;
+ }
